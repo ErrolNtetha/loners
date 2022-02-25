@@ -1,0 +1,50 @@
+Arguments: 
+  /home/errol/.nvm/versions/node/v12.2.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /home/errol/.nvm/versions/node/v12.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/errol/Desktop/loners-backend/package.json: Unexpected token } in JSON at position 471
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "loners-backend",
+    "version": "1.0.0",
+    "description": "The backend for the site.",
+    "main": "server.js",
+    "repository": "git@github.com:ErrolNtetha/loners-backend.git",
+    "author": "Mphumeleli Errol Ntetha",
+    "license": "MIT",
+    "private": false,
+  
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.0.11",
+      "nodemailer": "^6.7.2",
+      "nodemon": "^2.0.13",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
